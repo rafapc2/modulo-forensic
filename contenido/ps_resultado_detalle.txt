@@ -1,0 +1,1146 @@
+[*] Obteniendo lista de procesos (windows.pslist)...
+
+==== Salida completa de windows.pslist (2025-08-17 14:11:29 UTC) ====
+
+Progress:    0.00		Scanning FileLayer using PageMapScanner
+
+Progress:   23.33		Scanning FileLayer using PageMapScanner
+
+Progress:  100.00		Stacking attempts finished             
+
+Progress:    0.00		Scanning memory_layer using BytesScanner
+
+Progress:    0.33		Scanning memory_layer using BytesScanner
+
+Progress:    0.00		Scanning layer_name using PdbSignatureScanner
+
+Progress:    0.00		Scanning layer_name using PdbSignatureScanner
+
+Progress:  100.00		PDB scanning finished                        
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+
+4	0	System	0xfa802db55720	81	555	N/A	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+236	4	smss.exe	0xfa802e38cb10	2	29	N/A	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+324	308	csrss.exe	0xfa802e445060	9	803	0	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+384	368	csrss.exe	0xfa802e5f0b10	10	416	1	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+440	368	winlogon.exe	0xfa802ef878f0	3	92	1	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+492	376	lsass.exe	0xfa802efa3b10	27	1157	0	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+500	376	lsm.exe	0xfa802ef85580	9	197	0	False	2022-10-06 01:42:20.000000 UTC	N/A	Disabled
+668	476	svchost.exe	0xfa802f06a060	9	352	0	False	2022-10-06 01:42:21.000000 UTC	N/A	Disabled
+736	476	vmacthlp.exe	0xfa802f086b10	3	52	0	False	2022-10-06 01:42:21.000000 UTC	N/A	Disabled
+768	476	svchost.exe	0xfa802f098b10	8	291	0	False	2022-10-06 01:42:21.000000 UTC	N/A	Disabled
+820	476	svchost.exe	0xfa802f0acb10	13	316	0	False	2022-10-06 01:42:21.000000 UTC	N/A	Disabled
+948	476	svchost.exe	0xfa802f0e5b10	39	1045	0	False	2022-10-06 01:42:22.000000 UTC	N/A	Disabled
+996	476	svchost.exe	0xfa802f119b10	14	574	0	False	2022-10-06 01:42:22.000000 UTC	N/A	Disabled
+260	476	svchost.exe	0xfa802f126b10	6	193	0	False	2022-10-06 01:42:22.000000 UTC	N/A	Disabled
+328	476	svchost.exe	0xfa802f135360	17	421	0	False	2022-10-06 01:42:22.000000 UTC	N/A	Disabled
+1032	476	svchost.exe	0xfa802f139b10	19	308	0	False	2022-10-06 01:42:22.000000 UTC	N/A	Disabled
+1300	476	spoolsv.exe	0xfa802e5e2230	15	326	0	False	2022-10-06 01:42:59.000000 UTC	N/A	Disabled
+1332	476	Microsoft.Acti	0xfa802e623b10	13	237	0	False	2022-10-06 01:42:59.000000 UTC	N/A	Disabled
+1364	476	httpd.exe	0xfa802f297060	6	113	0	True	2022-10-06 01:42:59.000000 UTC	N/A	Disabled
+1404	476	dfsrs.exe	0xfa802f2ac650	12	195	0	False	2022-10-06 01:42:59.000000 UTC	N/A	Disabled
+1428	476	svchost.exe	0xfa802f2d4870	9	165	0	False	2022-10-06 01:42:59.000000 UTC	N/A	Disabled
+1444	1364	httpd.exe	0xfa802f2126a0	157	418	0	True	2022-10-06 01:42:59.000000 UTC	N/A	Disabled
+2220	476	FreeSSHDServic	0xfa80307ad060	6	110	0	True	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2240	476	svchost.exe	0xfa80307b34f0	11	130	0	False	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2268	476	ismserv.exe	0xfa80307be5d0	8	95	0	False	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2304	476	mysqld.exe	0xfa80307cd490	32	143	0	True	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2392	476	ntfrs.exe	0xfa80307edb10	16	274	0	False	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2424	476	svchost.exe	0xfa80307fd060	3	48	0	False	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2496	476	VGAuthService.	0xfa8030810b10	3	86	0	False	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2568	476	vmtoolsd.exe	0xfa803082cb10	8	310	0	False	2022-10-06 01:43:02.000000 UTC	N/A	Disabled
+2752	476	dfssvc.exe	0xfa8030d72b10	13	116	0	False	2022-10-06 01:43:03.000000 UTC	N/A	Disabled
+2980	476	vds.exe	0xfa8030dda7e0	13	134	0	False	2022-10-06 01:43:03.000000 UTC	N/A	Disabled
+3024	476	svchost.exe	0xfa8030dee5d0	9	238	0	False	2022-10-06 01:43:03.000000 UTC	N/A	Disabled
+3048	668	WmiPrvSE.exe	0xfa8030dfc9b0	9	203	0	False	2022-10-06 01:43:03.000000 UTC	N/A	Disabled
+2492	476	svchost.exe	0xfa8030e11b10	5	102	0	False	2022-10-06 01:43:03.000000 UTC	N/A	Disabled
+3164	476	dllhost.exe	0xfa8030e3ab10	14	196	0	False	2022-10-06 01:43:03.000000 UTC	N/A	Disabled
+3352	476	msdtc.exe	0xfa8030ec63b0	14	157	0	False	2022-10-06 01:43:04.000000 UTC	N/A	Disabled
+3576	668	WmiPrvSE.exe	0xfa8030f20060	11	249	0	False	2022-10-06 01:43:05.000000 UTC	N/A	Disabled
+3796	476	taskhost.exe	0xfa8030f62b10	8	196	1	False	2022-10-06 01:43:13.000000 UTC	N/A	Disabled
+3860	260	dwm.exe	0xfa8030f74440	3	69	1	False	2022-10-06 01:43:13.000000 UTC	N/A	Disabled
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	Disabled
+3964	3876	vmtoolsd.exe	0xfa8030fda480	5	200	1	False	2022-10-06 01:43:13.000000 UTC	N/A	Disabled
+3804	2104	GoogleCrashHan	0xfa80310966a0	5	91	0	True	2022-10-06 01:43:16.000000 UTC	N/A	Disabled
+3888	2104	GoogleCrashHan	0xfa8030ea0770	5	82	0	False	2022-10-06 01:43:16.000000 UTC	N/A	Disabled
+3984	3876	notepad.exe	0xfa802f37a060	1	57	1	False	2022-10-06 01:43:50.000000 UTC	N/A	Disabled
+744	3876	Shredder.exe	0xfa80310f6200	4	153	1	True	2022-10-06 01:43:57.000000 UTC	N/A	Disabled
+3368	476	msiexec.exe	0xfa8030ea2b10	4	170	0	False	2022-10-06 01:46:11.000000 UTC	N/A	Disabled
+884	3368	msiexec.exe	0xfa8030fd7060	0	-	1	False	2022-10-06 01:46:11.000000 UTC	2022-10-06 01:46:20.000000 UTC	Disabled
+3724	2880	FTK Imager.exe	0xfa8030d7d640	16	317	1	False	2022-10-06 01:46:20.000000 UTC	N/A	Disabled
+3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	Disabled
+2208	3720	chrome.exe	0xfa8030f717e0	9	82	1	False	2022-10-06 01:46:26.000000 UTC	N/A	Disabled
+3692	3720	chrome.exe	0xfa802efda370	14	228	1	False	2022-10-06 01:46:26.000000 UTC	N/A	Disabled
+3156	3720	chrome.exe	0xfa80310ee9c0	7	136	1	False	2022-10-06 01:46:26.000000 UTC	N/A	Disabled
+2864	3720	chrome.exe	0xfa802dbdeb10	15	224	1	False	2022-10-06 01:46:27.000000 UTC	N/A	Disabled
+852	3720	chrome.exe	0xfa802dbdcb10	16	296	1	False	2022-10-06 01:46:27.000000 UTC	N/A	Disabled
+4248	3720	chrome.exe	0xfa8030703600	11	166	1	False	2022-10-06 01:46:28.000000 UTC	N/A	Disabled
+4320	3720	chrome.exe	0xfa8030701b10	12	156	1	False	2022-10-06 01:46:29.000000 UTC	N/A	Disabled
+4640	3720	chrome.exe	0xfa802dbc9b10	16	251	1	False	2022-10-06 01:46:36.000000 UTC	N/A	Disabled
+4764	3720	chrome.exe	0xfa80304da7f0	16	218	1	False	2022-10-06 01:46:49.000000 UTC	N/A	Disabled
+4904	3876	svchost.exe	0xfa80303b5350	1	23	1	False	2022-10-06 01:47:00.000000 UTC	N/A	Disabled
+4912	4904	cmd.exe	0xfa80303b3760	1	22	1	False	2022-10-06 01:47:00.000000 UTC	N/A	Disabled
+4920	384	conhost.exe	0xfa80303d5b10	2	31	1	False	2022-10-06 01:47:00.000000 UTC	N/A	Disabled
+3756	4720	rundll32.exe	0xfa802dbe4b10	4	105	0	True	2022-10-06 01:49:12.000000 UTC	N/A	Disabled
+====================================================================
+
+[*] Se encontraron 65 procesos. Generando pstree por PID...
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4
+--------------------------------------------------------------------------------
+
+PID: 4  |  Fecha: 2025-08-17 14:11:29 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+4	0	System	0xfa802db55720	81	555	N/A	False	2022-10-06 01:42:20.000000 UTC	N/A	-	-	-
+* 236	4	smss.exe	0xfa802e38cb10	2	29	N/A	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\smss.exe	\SystemRoot\System32\smss.exe	\SystemRoot\System32\smss.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 236
+--------------------------------------------------------------------------------
+
+PID: 236  |  Fecha: 2025-08-17 14:11:29 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+4	0	System	0xfa802db55720	81	555	N/A	False	2022-10-06 01:42:20.000000 UTC	N/A	-	-	-
+* 236	4	smss.exe	0xfa802e38cb10	2	29	N/A	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\smss.exe	\SystemRoot\System32\smss.exe	\SystemRoot\System32\smss.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 260
+--------------------------------------------------------------------------------
+
+PID: 260  |  Fecha: 2025-08-17 14:11:29 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 260	476	svchost.exe	0xfa802f126b10	6	193	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted	C:\Windows\System32\svchost.exe
+*** 3860	260	dwm.exe	0xfa8030f74440	3	69	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dwm.exe	"C:\Windows\system32\Dwm.exe"	C:\Windows\system32\Dwm.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 324
+--------------------------------------------------------------------------------
+
+PID: 324  |  Fecha: 2025-08-17 14:11:30 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+324	308	csrss.exe	0xfa802e445060	9	803	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 328
+--------------------------------------------------------------------------------
+
+PID: 328  |  Fecha: 2025-08-17 14:11:30 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 328	476	svchost.exe	0xfa802f135360	17	421	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 376
+--------------------------------------------------------------------------------
+
+PID: 376  |  Fecha: 2025-08-17 14:11:30 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 500	376	lsm.exe	0xfa802ef85580	9	197	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\lsm.exe	C:\Windows\system32\lsm.exe	C:\Windows\system32\lsm.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 768	476	svchost.exe	0xfa802f098b10	8	291	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS	C:\Windows\system32\svchost.exe
+** 2304	476	mysqld.exe	0xfa80307cd490	32	143	0	True	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\mysql\bin\mysqld.exe	C:\xampp\mysql\bin\mysqld.exe --defaults-file=c:\xampp\mysql\bin\my.ini mysql	C:\xampp\mysql\bin\mysqld.exe
+** 260	476	svchost.exe	0xfa802f126b10	6	193	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted	C:\Windows\System32\svchost.exe
+*** 3860	260	dwm.exe	0xfa8030f74440	3	69	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dwm.exe	"C:\Windows\system32\Dwm.exe"	C:\Windows\system32\Dwm.exe
+** 1032	476	svchost.exe	0xfa802f139b10	19	308	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork	C:\Windows\system32\svchost.exe
+** 2568	476	vmtoolsd.exe	0xfa803082cb10	8	310	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"	C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+** 1300	476	spoolsv.exe	0xfa802e5e2230	15	326	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe
+** 1428	476	svchost.exe	0xfa802f2d4870	9	165	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k utcsvc	C:\Windows\System32\svchost.exe
+** 3352	476	msdtc.exe	0xfa8030ec63b0	14	157	0	False	2022-10-06 01:43:04.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\msdtc.exe	C:\Windows\System32\msdtc.exe	C:\Windows\System32\msdtc.exe
+** 668	476	svchost.exe	0xfa802f06a060	9	352	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch	C:\Windows\system32\svchost.exe
+*** 3048	668	WmiPrvSE.exe	0xfa8030dfc9b0	9	203	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+*** 3576	668	WmiPrvSE.exe	0xfa8030f20060	11	249	0	False	2022-10-06 01:43:05.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+** 2980	476	vds.exe	0xfa8030dda7e0	13	134	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\vds.exe	C:\Windows\System32\vds.exe	C:\Windows\System32\vds.exe
+** 3368	476	msiexec.exe	0xfa8030ea2b10	4	170	0	False	2022-10-06 01:46:11.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\msiexec.exe	C:\Windows\system32\msiexec.exe /V	C:\Windows\system32\msiexec.exe
+*** 884	3368	msiexec.exe	0xfa8030fd7060	0	-	1	False	2022-10-06 01:46:11.000000 UTC	2022-10-06 01:46:20.000000 UTC	\Device\HarddiskVolume2\Windows\SysWOW64\msiexec.exe	-	-
+** 2220	476	FreeSSHDServic	0xfa80307ad060	6	110	0	True	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files (x86)\freeSSHd\FreeSSHDService.exe	"C:\Program Files (x86)\freeSSHd\FreeSSHDService.exe"	C:\Program Files (x86)\freeSSHd\FreeSSHDService.exe
+** 948	476	svchost.exe	0xfa802f0e5b10	39	1045	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs	C:\Windows\system32\svchost.exe
+** 820	476	svchost.exe	0xfa802f0acb10	13	316	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted	C:\Windows\System32\svchost.exe
+** 1332	476	Microsoft.Acti	0xfa802e623b10	13	237	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe	C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe	C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe
+** 2492	476	svchost.exe	0xfa8030e11b10	5	102	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted	C:\Windows\system32\svchost.exe
+** 2240	476	svchost.exe	0xfa80307b34f0	11	130	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k ftpsvc	C:\Windows\system32\svchost.exe
+** 2496	476	VGAuthService.	0xfa8030810b10	3	86	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe	"C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"	C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe
+** 2752	476	dfssvc.exe	0xfa8030d72b10	13	116	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dfssvc.exe	C:\Windows\system32\dfssvc.exe	C:\Windows\system32\dfssvc.exe
+** 328	476	svchost.exe	0xfa802f135360	17	421	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService	C:\Windows\system32\svchost.exe
+** 3024	476	svchost.exe	0xfa8030dee5d0	9	238	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k termsvcs	C:\Windows\System32\svchost.exe
+** 1364	476	httpd.exe	0xfa802f297060	6	113	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	"C:\xampp\apache\bin\httpd.exe" -k runservice	C:\xampp\apache\bin\httpd.exe
+*** 1444	1364	httpd.exe	0xfa802f2126a0	157	418	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	C:\xampp\apache\bin\httpd.exe -d C:/xampp/apache	C:\xampp\apache\bin\httpd.exe
+** 3796	476	taskhost.exe	0xfa8030f62b10	8	196	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\taskhost.exe	"taskhost.exe"	C:\Windows\system32\taskhost.exe
+** 2392	476	ntfrs.exe	0xfa80307edb10	16	274	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\ntfrs.exe	C:\Windows\system32\ntfrs.exe	C:\Windows\system32\ntfrs.exe
+** 2268	476	ismserv.exe	0xfa80307be5d0	8	95	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\ismserv.exe	C:\Windows\System32\ismserv.exe	C:\Windows\System32\ismserv.exe
+** 3164	476	dllhost.exe	0xfa8030e3ab10	14	196	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dllhost.exe	C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}	C:\Windows\system32\dllhost.exe
+** 736	476	vmacthlp.exe	0xfa802f086b10	3	52	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmacthlp.exe	"C:\Program Files\VMware\VMware Tools\vmacthlp.exe"	C:\Program Files\VMware\VMware Tools\vmacthlp.exe
+** 996	476	svchost.exe	0xfa802f119b10	14	574	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalService	C:\Windows\system32\svchost.exe
+** 2424	476	svchost.exe	0xfa80307fd060	3	48	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k regsvc	C:\Windows\system32\svchost.exe
+** 1404	476	dfsrs.exe	0xfa802f2ac650	12	195	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dfsrs.exe	C:\Windows\system32\DFSRs.exe	C:\Windows\system32\DFSRs.exe
+* 492	376	lsass.exe	0xfa802efa3b10	27	1157	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\lsass.exe	C:\Windows\system32\lsass.exe	C:\Windows\system32\lsass.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 384
+--------------------------------------------------------------------------------
+
+PID: 384  |  Fecha: 2025-08-17 14:11:30 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+384	368	csrss.exe	0xfa802e5f0b10	10	416	1	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+* 4920	384	conhost.exe	0xfa80303d5b10	2	31	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\conhost.exe	\??\C:\Windows\system32\conhost.exe "1844263581677080854-1932546518144328050610434276843242276541235992691-1796840591	C:\Windows\system32\conhost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 440
+--------------------------------------------------------------------------------
+
+PID: 440  |  Fecha: 2025-08-17 14:11:31 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+440	368	winlogon.exe	0xfa802ef878f0	3	92	1	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\winlogon.exe	winlogon.exe	C:\Windows\system32\winlogon.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 476
+--------------------------------------------------------------------------------
+
+PID: 476  |  Fecha: 2025-08-17 14:11:31 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 768	476	svchost.exe	0xfa802f098b10	8	291	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS	C:\Windows\system32\svchost.exe
+** 2304	476	mysqld.exe	0xfa80307cd490	32	143	0	True	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\mysql\bin\mysqld.exe	C:\xampp\mysql\bin\mysqld.exe --defaults-file=c:\xampp\mysql\bin\my.ini mysql	C:\xampp\mysql\bin\mysqld.exe
+** 260	476	svchost.exe	0xfa802f126b10	6	193	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted	C:\Windows\System32\svchost.exe
+*** 3860	260	dwm.exe	0xfa8030f74440	3	69	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dwm.exe	"C:\Windows\system32\Dwm.exe"	C:\Windows\system32\Dwm.exe
+** 1032	476	svchost.exe	0xfa802f139b10	19	308	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork	C:\Windows\system32\svchost.exe
+** 2568	476	vmtoolsd.exe	0xfa803082cb10	8	310	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"	C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+** 1300	476	spoolsv.exe	0xfa802e5e2230	15	326	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe
+** 1428	476	svchost.exe	0xfa802f2d4870	9	165	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k utcsvc	C:\Windows\System32\svchost.exe
+** 3352	476	msdtc.exe	0xfa8030ec63b0	14	157	0	False	2022-10-06 01:43:04.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\msdtc.exe	C:\Windows\System32\msdtc.exe	C:\Windows\System32\msdtc.exe
+** 668	476	svchost.exe	0xfa802f06a060	9	352	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch	C:\Windows\system32\svchost.exe
+*** 3048	668	WmiPrvSE.exe	0xfa8030dfc9b0	9	203	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+*** 3576	668	WmiPrvSE.exe	0xfa8030f20060	11	249	0	False	2022-10-06 01:43:05.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+** 2980	476	vds.exe	0xfa8030dda7e0	13	134	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\vds.exe	C:\Windows\System32\vds.exe	C:\Windows\System32\vds.exe
+** 3368	476	msiexec.exe	0xfa8030ea2b10	4	170	0	False	2022-10-06 01:46:11.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\msiexec.exe	C:\Windows\system32\msiexec.exe /V	C:\Windows\system32\msiexec.exe
+*** 884	3368	msiexec.exe	0xfa8030fd7060	0	-	1	False	2022-10-06 01:46:11.000000 UTC	2022-10-06 01:46:20.000000 UTC	\Device\HarddiskVolume2\Windows\SysWOW64\msiexec.exe	-	-
+** 2220	476	FreeSSHDServic	0xfa80307ad060	6	110	0	True	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files (x86)\freeSSHd\FreeSSHDService.exe	"C:\Program Files (x86)\freeSSHd\FreeSSHDService.exe"	C:\Program Files (x86)\freeSSHd\FreeSSHDService.exe
+** 948	476	svchost.exe	0xfa802f0e5b10	39	1045	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs	C:\Windows\system32\svchost.exe
+** 820	476	svchost.exe	0xfa802f0acb10	13	316	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted	C:\Windows\System32\svchost.exe
+** 1332	476	Microsoft.Acti	0xfa802e623b10	13	237	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe	C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe	C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe
+** 2492	476	svchost.exe	0xfa8030e11b10	5	102	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted	C:\Windows\system32\svchost.exe
+** 2240	476	svchost.exe	0xfa80307b34f0	11	130	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k ftpsvc	C:\Windows\system32\svchost.exe
+** 2496	476	VGAuthService.	0xfa8030810b10	3	86	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe	"C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"	C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe
+** 2752	476	dfssvc.exe	0xfa8030d72b10	13	116	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dfssvc.exe	C:\Windows\system32\dfssvc.exe	C:\Windows\system32\dfssvc.exe
+** 328	476	svchost.exe	0xfa802f135360	17	421	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService	C:\Windows\system32\svchost.exe
+** 3024	476	svchost.exe	0xfa8030dee5d0	9	238	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k termsvcs	C:\Windows\System32\svchost.exe
+** 1364	476	httpd.exe	0xfa802f297060	6	113	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	"C:\xampp\apache\bin\httpd.exe" -k runservice	C:\xampp\apache\bin\httpd.exe
+*** 1444	1364	httpd.exe	0xfa802f2126a0	157	418	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	C:\xampp\apache\bin\httpd.exe -d C:/xampp/apache	C:\xampp\apache\bin\httpd.exe
+** 3796	476	taskhost.exe	0xfa8030f62b10	8	196	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\taskhost.exe	"taskhost.exe"	C:\Windows\system32\taskhost.exe
+** 2392	476	ntfrs.exe	0xfa80307edb10	16	274	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\ntfrs.exe	C:\Windows\system32\ntfrs.exe	C:\Windows\system32\ntfrs.exe
+** 2268	476	ismserv.exe	0xfa80307be5d0	8	95	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\ismserv.exe	C:\Windows\System32\ismserv.exe	C:\Windows\System32\ismserv.exe
+** 3164	476	dllhost.exe	0xfa8030e3ab10	14	196	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dllhost.exe	C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}	C:\Windows\system32\dllhost.exe
+** 736	476	vmacthlp.exe	0xfa802f086b10	3	52	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmacthlp.exe	"C:\Program Files\VMware\VMware Tools\vmacthlp.exe"	C:\Program Files\VMware\VMware Tools\vmacthlp.exe
+** 996	476	svchost.exe	0xfa802f119b10	14	574	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalService	C:\Windows\system32\svchost.exe
+** 2424	476	svchost.exe	0xfa80307fd060	3	48	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k regsvc	C:\Windows\system32\svchost.exe
+** 1404	476	dfsrs.exe	0xfa802f2ac650	12	195	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dfsrs.exe	C:\Windows\system32\DFSRs.exe	C:\Windows\system32\DFSRs.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 492
+--------------------------------------------------------------------------------
+
+PID: 492  |  Fecha: 2025-08-17 14:11:31 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 492	376	lsass.exe	0xfa802efa3b10	27	1157	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\lsass.exe	C:\Windows\system32\lsass.exe	C:\Windows\system32\lsass.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 500
+--------------------------------------------------------------------------------
+
+PID: 500  |  Fecha: 2025-08-17 14:11:31 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 500	376	lsm.exe	0xfa802ef85580	9	197	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\lsm.exe	C:\Windows\system32\lsm.exe	C:\Windows\system32\lsm.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 668
+--------------------------------------------------------------------------------
+
+PID: 668  |  Fecha: 2025-08-17 14:11:32 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 668	476	svchost.exe	0xfa802f06a060	9	352	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch	C:\Windows\system32\svchost.exe
+*** 3048	668	WmiPrvSE.exe	0xfa8030dfc9b0	9	203	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+*** 3576	668	WmiPrvSE.exe	0xfa8030f20060	11	249	0	False	2022-10-06 01:43:05.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 736
+--------------------------------------------------------------------------------
+
+PID: 736  |  Fecha: 2025-08-17 14:11:32 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 736	476	vmacthlp.exe	0xfa802f086b10	3	52	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmacthlp.exe	"C:\Program Files\VMware\VMware Tools\vmacthlp.exe"	C:\Program Files\VMware\VMware Tools\vmacthlp.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 744
+--------------------------------------------------------------------------------
+
+PID: 744  |  Fecha: 2025-08-17 14:11:32 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 744	3876	Shredder.exe	0xfa80310f6200	4	153	1	True	2022-10-06 01:43:57.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\File Shredder\Shredder.exe	"C:\Program Files\File Shredder\Shredder.exe" 	C:\Program Files\File Shredder\Shredder.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 768
+--------------------------------------------------------------------------------
+
+PID: 768  |  Fecha: 2025-08-17 14:11:32 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 768	476	svchost.exe	0xfa802f098b10	8	291	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 820
+--------------------------------------------------------------------------------
+
+PID: 820  |  Fecha: 2025-08-17 14:11:33 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 820	476	svchost.exe	0xfa802f0acb10	13	316	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted	C:\Windows\System32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 852
+--------------------------------------------------------------------------------
+
+PID: 852  |  Fecha: 2025-08-17 14:11:33 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 852	3720	chrome.exe	0xfa802dbdcb10	16	296	1	False	2022-10-06 01:46:27.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=5 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=254381819 --mojo-platform-channel-handle=2108 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 884
+--------------------------------------------------------------------------------
+
+PID: 884  |  Fecha: 2025-08-17 14:11:33 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 3368	476	msiexec.exe	0xfa8030ea2b10	4	170	0	False	2022-10-06 01:46:11.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\msiexec.exe	C:\Windows\system32\msiexec.exe /V	C:\Windows\system32\msiexec.exe
+*** 884	3368	msiexec.exe	0xfa8030fd7060	0	-	1	False	2022-10-06 01:46:11.000000 UTC	2022-10-06 01:46:20.000000 UTC	\Device\HarddiskVolume2\Windows\SysWOW64\msiexec.exe	-	-
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 948
+--------------------------------------------------------------------------------
+
+PID: 948  |  Fecha: 2025-08-17 14:11:33 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 948	476	svchost.exe	0xfa802f0e5b10	39	1045	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 996
+--------------------------------------------------------------------------------
+
+PID: 996  |  Fecha: 2025-08-17 14:11:34 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 996	476	svchost.exe	0xfa802f119b10	14	574	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalService	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 1032
+--------------------------------------------------------------------------------
+
+PID: 1032  |  Fecha: 2025-08-17 14:11:34 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 1032	476	svchost.exe	0xfa802f139b10	19	308	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 1300
+--------------------------------------------------------------------------------
+
+PID: 1300  |  Fecha: 2025-08-17 14:11:34 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 1300	476	spoolsv.exe	0xfa802e5e2230	15	326	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe	C:\Windows\System32\spoolsv.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 1332
+--------------------------------------------------------------------------------
+
+PID: 1332  |  Fecha: 2025-08-17 14:11:35 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 1332	476	Microsoft.Acti	0xfa802e623b10	13	237	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe	C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe	C:\Windows\ADWS\Microsoft.ActiveDirectory.WebServices.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 1364
+--------------------------------------------------------------------------------
+
+PID: 1364  |  Fecha: 2025-08-17 14:11:35 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 1364	476	httpd.exe	0xfa802f297060	6	113	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	"C:\xampp\apache\bin\httpd.exe" -k runservice	C:\xampp\apache\bin\httpd.exe
+*** 1444	1364	httpd.exe	0xfa802f2126a0	157	418	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	C:\xampp\apache\bin\httpd.exe -d C:/xampp/apache	C:\xampp\apache\bin\httpd.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 1404
+--------------------------------------------------------------------------------
+
+PID: 1404  |  Fecha: 2025-08-17 14:11:35 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 1404	476	dfsrs.exe	0xfa802f2ac650	12	195	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dfsrs.exe	C:\Windows\system32\DFSRs.exe	C:\Windows\system32\DFSRs.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 1428
+--------------------------------------------------------------------------------
+
+PID: 1428  |  Fecha: 2025-08-17 14:11:35 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 1428	476	svchost.exe	0xfa802f2d4870	9	165	0	False	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k utcsvc	C:\Windows\System32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 1444
+--------------------------------------------------------------------------------
+
+PID: 1444  |  Fecha: 2025-08-17 14:11:36 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 1364	476	httpd.exe	0xfa802f297060	6	113	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	"C:\xampp\apache\bin\httpd.exe" -k runservice	C:\xampp\apache\bin\httpd.exe
+*** 1444	1364	httpd.exe	0xfa802f2126a0	157	418	0	True	2022-10-06 01:42:59.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\apache\bin\httpd.exe	C:\xampp\apache\bin\httpd.exe -d C:/xampp/apache	C:\xampp\apache\bin\httpd.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2208
+--------------------------------------------------------------------------------
+
+PID: 2208  |  Fecha: 2025-08-17 14:11:36 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 2208	3720	chrome.exe	0xfa8030f717e0	9	82	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=crashpad-handler "--user-data-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Crashpad" "--metrics-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data" --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=Win64 --annotation=prod=Chrome --annotation=ver=106.0.5249.91 --initial-client-data=0xa0,0xa4,0xa8,0x74,0xac,0x7feea5e9758,0x7feea5e9768,0x7feea5e9778	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2220
+--------------------------------------------------------------------------------
+
+PID: 2220  |  Fecha: 2025-08-17 14:11:36 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2220	476	FreeSSHDServic	0xfa80307ad060	6	110	0	True	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files (x86)\freeSSHd\FreeSSHDService.exe	"C:\Program Files (x86)\freeSSHd\FreeSSHDService.exe"	C:\Program Files (x86)\freeSSHd\FreeSSHDService.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2240
+--------------------------------------------------------------------------------
+
+PID: 2240  |  Fecha: 2025-08-17 14:11:36 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2240	476	svchost.exe	0xfa80307b34f0	11	130	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k ftpsvc	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2268
+--------------------------------------------------------------------------------
+
+PID: 2268  |  Fecha: 2025-08-17 14:11:37 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2268	476	ismserv.exe	0xfa80307be5d0	8	95	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\ismserv.exe	C:\Windows\System32\ismserv.exe	C:\Windows\System32\ismserv.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2304
+--------------------------------------------------------------------------------
+
+PID: 2304  |  Fecha: 2025-08-17 14:11:37 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2304	476	mysqld.exe	0xfa80307cd490	32	143	0	True	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\xampp\mysql\bin\mysqld.exe	C:\xampp\mysql\bin\mysqld.exe --defaults-file=c:\xampp\mysql\bin\my.ini mysql	C:\xampp\mysql\bin\mysqld.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2392
+--------------------------------------------------------------------------------
+
+PID: 2392  |  Fecha: 2025-08-17 14:11:37 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2392	476	ntfrs.exe	0xfa80307edb10	16	274	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\ntfrs.exe	C:\Windows\system32\ntfrs.exe	C:\Windows\system32\ntfrs.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2424
+--------------------------------------------------------------------------------
+
+PID: 2424  |  Fecha: 2025-08-17 14:11:37 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2424	476	svchost.exe	0xfa80307fd060	3	48	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k regsvc	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2492
+--------------------------------------------------------------------------------
+
+PID: 2492  |  Fecha: 2025-08-17 14:11:38 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2492	476	svchost.exe	0xfa8030e11b10	5	102	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted	C:\Windows\system32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2496
+--------------------------------------------------------------------------------
+
+PID: 2496  |  Fecha: 2025-08-17 14:11:38 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2496	476	VGAuthService.	0xfa8030810b10	3	86	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe	"C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"	C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2568
+--------------------------------------------------------------------------------
+
+PID: 2568  |  Fecha: 2025-08-17 14:11:38 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2568	476	vmtoolsd.exe	0xfa803082cb10	8	310	0	False	2022-10-06 01:43:02.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"	C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2752
+--------------------------------------------------------------------------------
+
+PID: 2752  |  Fecha: 2025-08-17 14:11:38 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2752	476	dfssvc.exe	0xfa8030d72b10	13	116	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dfssvc.exe	C:\Windows\system32\dfssvc.exe	C:\Windows\system32\dfssvc.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2864
+--------------------------------------------------------------------------------
+
+PID: 2864  |  Fecha: 2025-08-17 14:11:39 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 2864	3720	chrome.exe	0xfa802dbdeb10	15	224	1	False	2022-10-06 01:46:27.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --first-renderer-process --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=6 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=254361180 --mojo-platform-channel-handle=2076 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 2980
+--------------------------------------------------------------------------------
+
+PID: 2980  |  Fecha: 2025-08-17 14:11:39 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 2980	476	vds.exe	0xfa8030dda7e0	13	134	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\vds.exe	C:\Windows\System32\vds.exe	C:\Windows\System32\vds.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3024
+--------------------------------------------------------------------------------
+
+PID: 3024  |  Fecha: 2025-08-17 14:11:39 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 3024	476	svchost.exe	0xfa8030dee5d0	9	238	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k termsvcs	C:\Windows\System32\svchost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3048
+--------------------------------------------------------------------------------
+
+PID: 3048  |  Fecha: 2025-08-17 14:11:40 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 668	476	svchost.exe	0xfa802f06a060	9	352	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch	C:\Windows\system32\svchost.exe
+*** 3048	668	WmiPrvSE.exe	0xfa8030dfc9b0	9	203	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3156
+--------------------------------------------------------------------------------
+
+PID: 3156  |  Fecha: 2025-08-17 14:11:40 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 3156	3720	chrome.exe	0xfa80310ee9c0	7	136	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --mojo-platform-channel-handle=1516 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:8	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3164
+--------------------------------------------------------------------------------
+
+PID: 3164  |  Fecha: 2025-08-17 14:11:40 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 3164	476	dllhost.exe	0xfa8030e3ab10	14	196	0	False	2022-10-06 01:43:03.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dllhost.exe	C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}	C:\Windows\system32\dllhost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3352
+--------------------------------------------------------------------------------
+
+PID: 3352  |  Fecha: 2025-08-17 14:11:40 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 3352	476	msdtc.exe	0xfa8030ec63b0	14	157	0	False	2022-10-06 01:43:04.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\msdtc.exe	C:\Windows\System32\msdtc.exe	C:\Windows\System32\msdtc.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3368
+--------------------------------------------------------------------------------
+
+PID: 3368  |  Fecha: 2025-08-17 14:11:41 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 3368	476	msiexec.exe	0xfa8030ea2b10	4	170	0	False	2022-10-06 01:46:11.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\msiexec.exe	C:\Windows\system32\msiexec.exe /V	C:\Windows\system32\msiexec.exe
+*** 884	3368	msiexec.exe	0xfa8030fd7060	0	-	1	False	2022-10-06 01:46:11.000000 UTC	2022-10-06 01:46:20.000000 UTC	\Device\HarddiskVolume2\Windows\SysWOW64\msiexec.exe	-	-
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3576
+--------------------------------------------------------------------------------
+
+PID: 3576  |  Fecha: 2025-08-17 14:11:41 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 668	476	svchost.exe	0xfa802f06a060	9	352	0	False	2022-10-06 01:42:21.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch	C:\Windows\system32\svchost.exe
+*** 3576	668	WmiPrvSE.exe	0xfa8030f20060	11	249	0	False	2022-10-06 01:43:05.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wbem\WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe	C:\Windows\system32\wbem\wmiprvse.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3692
+--------------------------------------------------------------------------------
+
+PID: 3692  |  Fecha: 2025-08-17 14:11:41 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 3692	3720	chrome.exe	0xfa802efda370	14	228	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --mojo-platform-channel-handle=1460 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:8	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3720
+--------------------------------------------------------------------------------
+
+PID: 3720  |  Fecha: 2025-08-17 14:11:41 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 2208	3720	chrome.exe	0xfa8030f717e0	9	82	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=crashpad-handler "--user-data-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Crashpad" "--metrics-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data" --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=Win64 --annotation=prod=Chrome --annotation=ver=106.0.5249.91 --initial-client-data=0xa0,0xa4,0xa8,0x74,0xac,0x7feea5e9758,0x7feea5e9768,0x7feea5e9778	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4320	3720	chrome.exe	0xfa8030701b10	12	156	1	False	2022-10-06 01:46:29.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=8 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=255783679 --mojo-platform-channel-handle=2624 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4640	3720	chrome.exe	0xfa802dbc9b10	16	251	1	False	2022-10-06 01:46:36.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=11 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=263325817 --mojo-platform-channel-handle=3728 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 3692	3720	chrome.exe	0xfa802efda370	14	228	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --mojo-platform-channel-handle=1460 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:8	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 2864	3720	chrome.exe	0xfa802dbdeb10	15	224	1	False	2022-10-06 01:46:27.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --first-renderer-process --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=6 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=254361180 --mojo-platform-channel-handle=2076 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 852	3720	chrome.exe	0xfa802dbdcb10	16	296	1	False	2022-10-06 01:46:27.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=5 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=254381819 --mojo-platform-channel-handle=2108 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 3156	3720	chrome.exe	0xfa80310ee9c0	7	136	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --mojo-platform-channel-handle=1516 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:8	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4248	3720	chrome.exe	0xfa8030703600	11	166	1	False	2022-10-06 01:46:28.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=gpu-process --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=angle --use-angle=swiftshader-webgl --mojo-platform-channel-handle=1056 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:2	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4764	3720	chrome.exe	0xfa80304da7f0	16	218	1	False	2022-10-06 01:46:49.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=12 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=275827427 --mojo-platform-channel-handle=3920 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3724
+--------------------------------------------------------------------------------
+
+PID: 3724  |  Fecha: 2025-08-17 14:11:42 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3724	2880	FTK Imager.exe	0xfa8030d7d640	16	317	1	False	2022-10-06 01:46:20.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\AccessData\FTK Imager\FTK Imager.exe	"C:\Program Files\AccessData\FTK Imager\FTK Imager.exe"	C:\Program Files\AccessData\FTK Imager\FTK Imager.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3756
+--------------------------------------------------------------------------------
+
+PID: 3756  |  Fecha: 2025-08-17 14:11:42 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3756	4720	rundll32.exe	0xfa802dbe4b10	4	105	0	True	2022-10-06 01:49:12.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\SysWOW64\rundll32.exe	rundll32.exe	C:\Windows\SysWOW64\rundll32.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3796
+--------------------------------------------------------------------------------
+
+PID: 3796  |  Fecha: 2025-08-17 14:11:42 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 3796	476	taskhost.exe	0xfa8030f62b10	8	196	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\taskhost.exe	"taskhost.exe"	C:\Windows\system32\taskhost.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3804
+--------------------------------------------------------------------------------
+
+PID: 3804  |  Fecha: 2025-08-17 14:11:42 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3804	2104	GoogleCrashHan	0xfa80310966a0	5	91	0	True	2022-10-06 01:43:16.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler.exe	"C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler.exe"	C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3860
+--------------------------------------------------------------------------------
+
+PID: 3860  |  Fecha: 2025-08-17 14:11:43 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+376	308	wininit.exe	0xfa802ef57060	3	75	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\wininit.exe	wininit.exe	C:\Windows\system32\wininit.exe
+* 476	376	services.exe	0xfa802ef80b10	7	270	0	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\services.exe	C:\Windows\system32\services.exe	C:\Windows\system32\services.exe
+** 260	476	svchost.exe	0xfa802f126b10	6	193	0	False	2022-10-06 01:42:22.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted	C:\Windows\System32\svchost.exe
+*** 3860	260	dwm.exe	0xfa8030f74440	3	69	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\dwm.exe	"C:\Windows\system32\Dwm.exe"	C:\Windows\system32\Dwm.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3876
+--------------------------------------------------------------------------------
+
+PID: 3876  |  Fecha: 2025-08-17 14:11:43 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 744	3876	Shredder.exe	0xfa80310f6200	4	153	1	True	2022-10-06 01:43:57.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\File Shredder\Shredder.exe	"C:\Program Files\File Shredder\Shredder.exe" 	C:\Program Files\File Shredder\Shredder.exe
+* 4904	3876	svchost.exe	0xfa80303b5350	1	23	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Users\Administrator\Downloads\svchost.exe	"C:\Users\Administrator\Downloads\svchost.exe" 	C:\Users\Administrator\Downloads\svchost.exe
+** 4912	4904	cmd.exe	0xfa80303b3760	1	22	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\cmd.exe	cmd	C:\Windows\system32\cmd.exe
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 2208	3720	chrome.exe	0xfa8030f717e0	9	82	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=crashpad-handler "--user-data-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Crashpad" "--metrics-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data" --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=Win64 --annotation=prod=Chrome --annotation=ver=106.0.5249.91 --initial-client-data=0xa0,0xa4,0xa8,0x74,0xac,0x7feea5e9758,0x7feea5e9768,0x7feea5e9778	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4320	3720	chrome.exe	0xfa8030701b10	12	156	1	False	2022-10-06 01:46:29.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=8 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=255783679 --mojo-platform-channel-handle=2624 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4640	3720	chrome.exe	0xfa802dbc9b10	16	251	1	False	2022-10-06 01:46:36.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=11 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=263325817 --mojo-platform-channel-handle=3728 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 3692	3720	chrome.exe	0xfa802efda370	14	228	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --mojo-platform-channel-handle=1460 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:8	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 2864	3720	chrome.exe	0xfa802dbdeb10	15	224	1	False	2022-10-06 01:46:27.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --first-renderer-process --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=6 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=254361180 --mojo-platform-channel-handle=2076 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 852	3720	chrome.exe	0xfa802dbdcb10	16	296	1	False	2022-10-06 01:46:27.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=5 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=254381819 --mojo-platform-channel-handle=2108 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 3156	3720	chrome.exe	0xfa80310ee9c0	7	136	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --mojo-platform-channel-handle=1516 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:8	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4248	3720	chrome.exe	0xfa8030703600	11	166	1	False	2022-10-06 01:46:28.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=gpu-process --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=angle --use-angle=swiftshader-webgl --mojo-platform-channel-handle=1056 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:2	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4764	3720	chrome.exe	0xfa80304da7f0	16	218	1	False	2022-10-06 01:46:49.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=12 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=275827427 --mojo-platform-channel-handle=3920 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+* 3984	3876	notepad.exe	0xfa802f37a060	1	57	1	False	2022-10-06 01:43:50.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\notepad.exe	"C:\Windows\system32\NOTEPAD.EXE" C:\Users\Administrator\Desktop\Top Secret.txt	C:\Windows\system32\NOTEPAD.EXE
+* 3964	3876	vmtoolsd.exe	0xfa8030fda480	5	200	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr	C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3888
+--------------------------------------------------------------------------------
+
+PID: 3888  |  Fecha: 2025-08-17 14:11:43 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3888	2104	GoogleCrashHan	0xfa8030ea0770	5	82	0	False	2022-10-06 01:43:16.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler64.exe	"C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler64.exe"	C:\Program Files (x86)\Google\Update\1.3.36.152\GoogleCrashHandler64.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3964
+--------------------------------------------------------------------------------
+
+PID: 3964  |  Fecha: 2025-08-17 14:11:43 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3964	3876	vmtoolsd.exe	0xfa8030fda480	5	200	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\VMware\VMware Tools\vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr	C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 3984
+--------------------------------------------------------------------------------
+
+PID: 3984  |  Fecha: 2025-08-17 14:11:44 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3984	3876	notepad.exe	0xfa802f37a060	1	57	1	False	2022-10-06 01:43:50.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\notepad.exe	"C:\Windows\system32\NOTEPAD.EXE" C:\Users\Administrator\Desktop\Top Secret.txt	C:\Windows\system32\NOTEPAD.EXE
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4248
+--------------------------------------------------------------------------------
+
+PID: 4248  |  Fecha: 2025-08-17 14:11:44 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4248	3720	chrome.exe	0xfa8030703600	11	166	1	False	2022-10-06 01:46:28.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=gpu-process --gpu-preferences=UAAAAAAAAADgAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --use-gl=angle --use-angle=swiftshader-webgl --mojo-platform-channel-handle=1056 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:2	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4320
+--------------------------------------------------------------------------------
+
+PID: 4320  |  Fecha: 2025-08-17 14:11:44 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4320	3720	chrome.exe	0xfa8030701b10	12	156	1	False	2022-10-06 01:46:29.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=8 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=255783679 --mojo-platform-channel-handle=2624 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4640
+--------------------------------------------------------------------------------
+
+PID: 4640  |  Fecha: 2025-08-17 14:11:44 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4640	3720	chrome.exe	0xfa802dbc9b10	16	251	1	False	2022-10-06 01:46:36.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=11 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=263325817 --mojo-platform-channel-handle=3728 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4764
+--------------------------------------------------------------------------------
+
+PID: 4764  |  Fecha: 2025-08-17 14:11:45 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 3720	3876	chrome.exe	0xfa8030f06250	31	941	1	False	2022-10-06 01:46:26.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" 	C:\Program Files\Google\Chrome\Application\chrome.exe
+** 4764	3720	chrome.exe	0xfa80304da7f0	16	218	1	False	2022-10-06 01:46:49.000000 UTC	N/A	\Device\HarddiskVolume2\Program Files\Google\Chrome\Application\chrome.exe	"C:\Program Files\Google\Chrome\Application\chrome.exe" --type=renderer --display-capture-permissions-policy-allowed --disable-gpu-compositing --lang=en-GB --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=12 --time-ticks-at-unix-epoch=-1665020533255761 --launch-time-ticks=275827427 --mojo-platform-channel-handle=3920 --field-trial-handle=1272,i,10077633099136020325,17117752196934423450,131072 /prefetch:1	C:\Program Files\Google\Chrome\Application\chrome.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4904
+--------------------------------------------------------------------------------
+
+PID: 4904  |  Fecha: 2025-08-17 14:11:45 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 4904	3876	svchost.exe	0xfa80303b5350	1	23	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Users\Administrator\Downloads\svchost.exe	"C:\Users\Administrator\Downloads\svchost.exe" 	C:\Users\Administrator\Downloads\svchost.exe
+** 4912	4904	cmd.exe	0xfa80303b3760	1	22	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\cmd.exe	cmd	C:\Windows\system32\cmd.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4912
+--------------------------------------------------------------------------------
+
+PID: 4912  |  Fecha: 2025-08-17 14:11:45 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+3876	3852	explorer.exe	0xfa8030f84b10	29	674	1	False	2022-10-06 01:43:13.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+* 4904	3876	svchost.exe	0xfa80303b5350	1	23	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Users\Administrator\Downloads\svchost.exe	"C:\Users\Administrator\Downloads\svchost.exe" 	C:\Users\Administrator\Downloads\svchost.exe
+** 4912	4904	cmd.exe	0xfa80303b3760	1	22	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\cmd.exe	cmd	C:\Windows\system32\cmd.exe
+================================================================================
+ejecutando:
+vol -f win-dump.mem windows.cmdline --pid 4920
+--------------------------------------------------------------------------------
+
+PID: 4920  |  Fecha: 2025-08-17 14:11:45 UTC
+================================================================================
+
+Volatility 3 Framework 2.26.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	Audit	Cmd	Path
+
+384	368	csrss.exe	0xfa802e5f0b10	10	416	1	False	2022-10-06 01:42:20.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16	C:\Windows\system32\csrss.exe
+* 4920	384	conhost.exe	0xfa80303d5b10	2	31	1	False	2022-10-06 01:47:00.000000 UTC	N/A	\Device\HarddiskVolume2\Windows\System32\conhost.exe	\??\C:\Windows\system32\conhost.exe "1844263581677080854-1932546518144328050610434276843242276541235992691-1796840591	C:\Windows\system32\conhost.exe
